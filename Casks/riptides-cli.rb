@@ -39,7 +39,7 @@ cask "riptides-cli" do
   binary "riptides-cli"
 
   postflight do
-    xattr -dr com.apple.quarantine "#{staged_path}/riptides-cli"
+    system 'xattr', '-dr', 'com.apple.quarantine', "#{staged_path}/riptides-cli"
   end
 
   # No zap stanza required
