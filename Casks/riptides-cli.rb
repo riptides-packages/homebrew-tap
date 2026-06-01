@@ -4,22 +4,22 @@ cask "riptides-cli" do
 
   on_macos do
     on_intel do
-      sha256 "047aedf19903a5eb77d4d849c70f285c625fc5551ddeaf7fd68d14f906c9685e"
+      sha256 "6fc3863d44aa33e5a55e9006c1be071c91131a5988dbca4cb433b1b2b137056d"
       url "https://github.com/riptides-packages/daemon/releases/download/v#{version}/daemon-cli_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "156ec320a5f851ed25f950d06673f1fcb1201a3b7dd1befa682c90aeeabd4479"
+      sha256 "b4e884d68a48f59aeef68d16a1ec5c96bf4d25c6c2732d2a32271eed85a573f1"
       url "https://github.com/riptides-packages/daemon/releases/download/v#{version}/daemon-cli_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "d255268fea7dc785c477bf077d2be0a4879bd1a6b356f6fe709003344f44a327"
+      sha256 "0eeb856cebbda7b5a388c45903ab72b551e9652b5fc7c0d8bada4bc8b755df0e"
       url "https://github.com/riptides-packages/daemon/releases/download/v#{version}/daemon-cli_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "0590ba5105ff686092e9765452deb068b31fb5d1265ce93ab612fa0e421264b7"
+      sha256 "2ee160eafe9b249c14d8a2823ca083838fb71655b0d1e921f59e2bfcde5b9053"
       url "https://github.com/riptides-packages/daemon/releases/download/v#{version}/daemon-cli_#{version}_linux_arm64.tar.gz"
     end
   end
