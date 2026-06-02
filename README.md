@@ -6,17 +6,17 @@ Homebrew tap for [Riptides](https://riptides.io) CLI tools.
 
 ```sh
 brew tap riptides-packages/homebrew-tap
-brew install riptides-cli
+brew install --cask riptides-cli
 ```
 
 ## Upgrade
 
 ```sh
-brew upgrade riptides-cli
+brew upgrade --cask riptides-cli
 ```
 
 ## Uninstall
 
 ```sh
-brew uninstall riptides-cli
+brew uninstall --cask riptides-cli
 ```
