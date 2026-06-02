@@ -1,4 +1,4 @@
-cask "riptides-cli" do
+cask "riptides-cli@0.5" do
   version "0.5.16-rc5"
 
   on_arm do
