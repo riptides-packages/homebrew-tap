@@ -1,6 +1,6 @@
 # Riptides Homebrew Tap
 
-Homebrew tap for [Riptides](https://riptides.io) CLI tools.
+Homebrew tap for [Riptides](https://riptides.io) CLI tools and the Periscopes macOS app.
 
 ## Installation
 
@@ -20,3 +20,11 @@ brew upgrade --cask riptides-cli
 ```sh
 brew uninstall --cask riptides-cli
 ```
+
+## Periscopes
+
+```sh
+brew install --cask riptides-packages/tap/periscopes
+```
+
+Upgrade with `brew upgrade --cask periscopes`, remove with `brew uninstall --cask periscopes`.
