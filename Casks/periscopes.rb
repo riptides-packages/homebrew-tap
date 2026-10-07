@@ -4,7 +4,7 @@ cask "periscopes" do
 
   url "https://github.com/riptides-packages/workstation/releases/download/v#{version}/Periscopes.dmg"
   name "Periscopes"
-  desc "Routes outbound web traffic through the Riptides proxy for inspection"
+  desc "Inspects and analyzes AI traffic via the Riptides proxy"
   homepage "https://github.com/riptides-packages/workstation"
 
   depends_on macos: :tahoe
