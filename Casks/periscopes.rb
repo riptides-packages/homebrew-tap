@@ -1,6 +1,6 @@
 cask "periscopes" do
-  version "0.0.4"
-  sha256 "a4deda4822021ac913f6c622111a8e95c61e253f92a62e5d3535dea48059cabc"
+  version "0.0.5"
+  sha256 "75779b2cba444cac6248561ff0c242a43d907d7b1df4b8b92ad858d82a0ab337"
 
   url "https://github.com/riptides-packages/periscopes/releases/download/v#{version}/Periscopes.dmg"
   name "Periscopes"
@@ -9,6 +9,7 @@ cask "periscopes" do
 
   auto_updates true
   depends_on macos: :tahoe
+  depends_on arch: :arm64
 
   app "Periscopes.app"
 
