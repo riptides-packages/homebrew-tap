@@ -1,6 +1,6 @@
 cask "periscopes" do
-  version "0.0.7"
-  sha256 "2a63fd57648da581215bf6802ffb015610a3448c153676facb402b3c087591e5"
+  version "0.0.8"
+  sha256 "57af1d273207be5ee566bb709f6ee0d9bb9d86aaae3006dfeb849d7f4d3219e4"
 
   url "https://github.com/riptides-packages/periscopes/releases/download/v#{version}/Periscopes.dmg"
   name "Periscopes"
