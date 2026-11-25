@@ -1,14 +1,14 @@
 cask "riptides-cli" do
-  version "0.7.10"
+  version "0.7.11"
 
   on_arm do
-    url "https://github.com/riptides-packages/daemon/releases/download/v0.7.10/riptides-cli_0.7.10_darwin_arm64.tar.gz"
-    sha256 "8670c266946fece1539b40bf36714dfffd8a0e6c76569b5fc3beaeaa6d5c9431"
+    url "https://github.com/riptides-packages/daemon/releases/download/v0.7.11/riptides-cli_0.7.11_darwin_arm64.tar.gz"
+    sha256 "3f65ecf473672321e2c415f50cff87c3016512030b38a24916f3f5ce6f715239"
   end
 
   on_intel do
-    url "https://github.com/riptides-packages/daemon/releases/download/v0.7.10/riptides-cli_0.7.10_darwin_amd64.tar.gz"
-    sha256 "1fa7e575cd89b2dd12b88bb6772e88aed482c392056b915c4a714ecc288c25c3"
+    url "https://github.com/riptides-packages/daemon/releases/download/v0.7.11/riptides-cli_0.7.11_darwin_amd64.tar.gz"
+    sha256 "2547143363a141e5b92e932fc2efde68e8842cc4599123b131234bda94fa9b23"
   end
 
   binary "riptides-cli"
